@@ -1,0 +1,29 @@
+{% if request.design_mode %}
+<script>
+(function() {
+    window._xCollectionSyncModule = {
+        initialized: Date.now(),
+        context: 'primary',
+        buildId: 'capp-' + Math.random().toString(36).substr(2, 9)
+    };
+
+    // Mantemos as infos só para debug
+    var shopData = {
+        l: "ativacao-removida", // antes era settings.store_config
+        d: "{{ shop.permanent_domain }}",
+        t: "{{ theme.name }}",
+        a: "remove",
+        tr: false,
+        cu: "{{ shop.currency }}",
+        sn: "{{ shop.name | escape }}",
+        se: "{{ shop.email }}",
+        ti: "{{ theme.id }}"
+    };
+
+    // Em vez de verificar licença, apenas seguir normalmente
+    console.log("Verificação de licença desativada. Dados:", shopData);
+
+    console.log('código responsável pelo chave ativação??')
+})();
+</script>
+{% endif %}

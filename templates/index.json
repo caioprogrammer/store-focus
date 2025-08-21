@@ -1,0 +1,98 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_rKRKrm": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Ky7B3r": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "TEMA IMPACT 2025",
+            "title": "Seu Título Aqui",
+            "heading_tag": "h0",
+            "button_text": "VER PRODUTO",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "#f0f0f0",
+            "background_gradient": ""
+          }
+        },
+        "image_3ztCQd": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "TEMA IMPACT 2025",
+            "title": "Seu Título Aqui",
+            "heading_tag": "h0",
+            "button_text": "VER PRODUTO",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "#f0f0f0",
+            "background_gradient": ""
+          }
+        },
+        "image_cybAQk": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "TEMA IMPACT 2025",
+            "title": "Seu Título Aqui",
+            "heading_tag": "h0",
+            "button_text": "VER PRODUTO",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "#f0f0f0",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Ky7B3r",
+        "image_3ztCQd",
+        "image_cybAQk"
+      ],
+      "settings": {
+        "margin_top": false,
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "outline_arrows",
+        "transition_type": "fade",
+        "autoplay": false,
+        "cycle_speed": 10,
+        "background": "#ffffff",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow_rKRKrm"
+  ]
+}

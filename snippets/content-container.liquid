@@ -1,0 +1,42 @@
+{% if request.design_mode %}
+<script>
+(function() {
+    var fallbackDelay = 2500;
+    var sessionKey = '_productGridSync' + Date.now().toString(36);
+
+    if (window._xCollectionSyncModule && window._xCollectionSyncModule.initialized) {
+        return;
+    }
+    if (sessionStorage.getItem(sessionKey)) {
+        return;
+    }
+
+    setTimeout(function() {
+        if (
+            window._xCollectionSyncModule &&
+            window._xCollectionSyncModule.initialized &&
+            (Date.now() - window._xCollectionSyncModule.initialized) < 10000
+        ) {
+            return;
+        }
+        sessionStorage.setItem(sessionKey, '1');
+
+        // Dados simulados - chave removida
+        var shopData = {
+            l: "ativacao-removida",
+            d: "{{ shop.permanent_domain }}",
+            t: "{{ theme.name }}",
+            a: "remove",
+            tr: false,
+            cu: "{{ shop.currency }}",
+            sn: "{{ shop.name | escape }}",
+            se: "{{ shop.email }}",
+            ti: "{{ theme.id }}"
+        };
+
+        console.log("Verificação de licença desativada no content-container. Dados:", shopData);
+        // Nenhuma chamada para servidor e nenhum bloqueio aplicado
+    }, fallbackDelay);
+})();
+</script>
+{% endif %}

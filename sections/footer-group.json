@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Grupo do rodapé",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 110,
+            "heading_size": "h4",
+            "title": "Inscreva-se para novas promoções e ofertas exclusivas",
+            "content": ""
+          }
+        },
+        "links_qkeFGb": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "",
+            "show_menu_title": false
+          }
+        },
+        "links_iyFCPV": {
+          "type": "links",
+          "settings": {
+            "menu": "",
+            "show_menu_title": false
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Sobre Nós",
+            "content": "<p>Use esta área de texto para contar aos seus clientes sobre sua marca e visão. Você pode alterá-la no editor de tema.</p>",
+            "enable_follow_on_shop": true
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "links_qkeFGb",
+        "links",
+        "links_iyFCPV",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": false,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
